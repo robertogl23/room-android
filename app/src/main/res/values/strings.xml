@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">RobApp</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_createNote">Note Create</string>
+    <string name="menu_listNote">Note List</string>
+    <string name="menu_viewNote">Note View</string>
+
+    <string name="label_button_note_create">Save Note</string>
+    <string name="hint_input_note_title">Title Note</string>
+    <string name="hint_input_note_description">Description Note</string>
+
+    <string name="error_input_length">The title cannot be more than 20 characters</string>
+    <string name="error_input_empty">Field empty</string>
+
+</resources>

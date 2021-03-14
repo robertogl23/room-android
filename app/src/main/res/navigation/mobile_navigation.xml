@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.devrob.robapp.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.devrob.robapp.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.devrob.robapp.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/nav_create_note"
+        android:name="com.devrob.robapp.ui.createNote.CreateNoteFragment"
+        android:label="@string/menu_createNote"
+        tools:layout="@layout/fragment_create_note" />
+    <fragment
+        android:id="@+id/nav_list_note"
+        android:name="com.devrob.robapp.ui.listNote.ListNoteFragment"
+        android:label="@string/menu_listNote"
+        tools:layout="@layout/fragment_list_note" />
+    <fragment
+        android:id="@+id/nav_note_fragment"
+        android:name="com.devrob.robapp.ui.noteView.NoteFragment"
+        android:label="@string/menu_viewNote"
+        tools:layout="@layout/note_fragment" />
+</navigation>
